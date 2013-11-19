@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.imogene.gen.web.feature"
+      label="Imogene Web and Admin applications generator"
+      version="1.0.0.qualifier"
+      provider-name="Medes-IMPS">
+
+   <description url="http://code.google.com/p/imogene/">
+      This feature provides the plugins that are required to generate the imogene web and a web admin applications.
+   </description>
+
+   <license url="http://www.gnu.org/licenses/lgpl.html">
+      The imogene solution has been developed by Medes-IMPS and is provided under the terms of the LGPL version 3 license
+   </license>
+
+   <url>
+      <update label="Imogene update site" url="http://update-site.i-mogene.org/"/>
+   </url>
+
+   <plugin
+         id="org.imogene.web.contrib"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.imogene.web.oaw.generator"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.imogene.admin.contrib"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.imogene.admin.oaw.generator"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>

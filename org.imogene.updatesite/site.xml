@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="Imogene update site" url="http://update-site.i-mogene.org/">
+      Update site that provides all the features of the Imogene platform
+   </description>
+   <feature url="features/org.imogene.studio.feature_1.0.0.201304242045.jar" id="org.imogene.studio.feature" version="1.0.0.201304242045">
+      <category name="imogene.studio.category"/>
+   </feature>
+   <feature url="features/org.imogene.gen.init.feature_1.0.0.201304242045.jar" id="org.imogene.gen.init.feature" version="1.0.0.201304242045">
+      <category name="imogene.generator.category"/>
+   </feature>
+   <feature url="features/org.imogene.gen.notifier.feature_1.0.0.201304242045.jar" id="org.imogene.gen.notifier.feature" version="1.0.0.201304242045">
+      <category name="imogene.generator.category"/>
+   </feature>
+   <feature url="features/org.imogene.gen.synchro.feature_1.0.0.201304242045.jar" id="org.imogene.gen.synchro.feature" version="1.0.0.201304242045">
+      <category name="imogene.generator.category"/>
+   </feature>
+   <feature url="features/org.imogene.gen.web.feature_1.0.0.201304242045.jar" id="org.imogene.gen.web.feature" version="1.0.0.201304242045">
+      <category name="imogene.generator.category"/>
+   </feature>
+   <feature url="features/org.imogene.gen.android.feature_1.0.0.201304242045.jar" id="org.imogene.gen.android.feature" version="1.0.0.201304242045">
+      <category name="imogene.generator.category"/>
+   </feature>
+   <feature url="features/org.imogene.gen.client.feature_1.0.0.201304242045.jar" id="org.imogene.gen.client.feature" version="1.0.0.201304242045">
+      <category name="imogene.generator.category"/>
+   </feature>
+   <feature url="features/org.imogene.gen.dao.feature_1.0.0.201304242045.jar" id="org.imogene.gen.dao.feature" version="1.0.0.201304242045">
+      <category name="imogene.generator.category"/>
+   </feature>
+   <category-def name="imogene.studio.category" label="Imogene Studio"/>
+   <category-def name="imogene.generator.category" label="Imogene generators"/>
+</site>

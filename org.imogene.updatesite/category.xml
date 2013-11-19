@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/org.imogene.studio.feature_1.0.0.qualifier.jar" id="org.imogene.studio.feature" version="1.0.0.qualifier">
+      <category name="studio"/>
+   </feature>
+   <feature url="features/org.imogene.gen.android.feature_1.0.0.qualifier.jar" id="org.imogene.gen.android.feature" version="1.0.0.qualifier">
+      <category name="generator"/>
+   </feature>
+   <feature url="features/org.imogene.gen.client.feature_1.0.0.qualifier.jar" id="org.imogene.gen.client.feature" version="1.0.0.qualifier">
+      <category name="generator"/>
+   </feature>
+   <feature url="features/org.imogene.gen.dao.feature_1.0.0.qualifier.jar" id="org.imogene.gen.dao.feature" version="1.0.0.qualifier">
+      <category name="generator"/>
+   </feature>
+   <feature url="features/org.imogene.gen.init.feature_1.0.0.qualifier.jar" id="org.imogene.gen.init.feature" version="1.0.0.qualifier">
+      <category name="generator"/>
+   </feature>
+   <feature url="features/org.imogene.gen.notifier.feature_1.0.0.qualifier.jar" id="org.imogene.gen.notifier.feature" version="1.0.0.qualifier">
+      <category name="generator"/>
+   </feature>
+   <feature url="features/org.imogene.gen.web.feature_1.0.0.qualifier.jar" id="org.imogene.gen.web.feature" version="1.0.0.qualifier">
+      <category name="generator"/>
+   </feature>
+   <feature url="features/org.imogene.tools.maven.feature_1.0.0.qualifier.jar" id="org.imogene.tools.maven.feature" version="1.0.0.qualifier">
+      <category name="tools"/>
+   </feature>
+   <feature url="features/org.imogene.gen.sync.feature_1.0.0.qualifier.jar" id="org.imogene.gen.sync.feature" version="1.0.0.qualifier">
+      <category name="generator"/>
+   </feature>
+   <category-def name="studio" label="Imogene Studio">
+      <description>
+         Features that add the Imogene Studio to Eclipse.
+      </description>
+   </category-def>
+   <category-def name="generator" label="Imogene Generators">
+      <description>
+         Generators that are added to the studio.
+      </description>
+   </category-def>
+   <category-def name="tools" label="Developer Tools">
+      <description>
+         Tools to develop the Imogene Studio.
+      </description>
+   </category-def>
+</site>

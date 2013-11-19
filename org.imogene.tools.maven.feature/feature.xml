@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.imogene.tools.maven.feature"
+      label="Imogene maven tool dependency builder"
+      version="1.0.0.qualifier"
+      provider-name="Medes-IMPS">
+
+   <description url="http://code.google.com/p/imogene/">
+      This feature provides the plugin to manage libraries dependencies when developping the Imogene Studio using maven.
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <url>
+      <update label="Imogene update site" url="http://update-site.i-mogene.org/"/>
+   </url>
+
+   <plugin
+         id="org.imogene.tools.maven"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+</feature>
